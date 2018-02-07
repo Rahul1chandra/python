@@ -18,7 +18,6 @@ def guess_No_game():
         chance = chance - 1    
         print ("ur change remaining",chance)
     if chance == 0:
-        print ("game over!!")    
-
+        print ("game over!!")        
 if __name__ == "__main__":
     guess_No_game()
