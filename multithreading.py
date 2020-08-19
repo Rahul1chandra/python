@@ -1,10 +1,11 @@
  
 import threading
-
+import time
 class MyThreadClass:
     
     def display(self):
         print (threading.current_thread().getName())
+        time.sleep(1)
         i = 0
         while i <11:
             print (i)
